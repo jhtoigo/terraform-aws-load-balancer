@@ -11,7 +11,7 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.66.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
 
 ## Modules
 
@@ -46,4 +46,6 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_load_balancer_dns"></a> [load\_balancer\_dns](#output\_load\_balancer\_dns) | DNS Name of Load balancer |
+| <a name="output_ssm_load_balancer_arn"></a> [ssm\_load\_balancer\_arn](#output\_ssm\_load\_balancer\_arn) | SSM parameter load balancer arn |
+| <a name="output_ssm_load_balancer_default_listner"></a> [ssm\_load\_balancer\_default\_listner](#output\_ssm\_load\_balancer\_default\_listner) | SSM Parameter load balancer default listner |
 <!-- END_TF_DOCS -->
