@@ -34,7 +34,7 @@ resource "aws_security_group_rule" "ingress_443" {
 
 
 resource "aws_lb" "main" {
-  name               = format("%s-ingress", var.lb_name)
+  name               = format("%s-alb", var.lb_name)
   internal           = var.load_balancer_internal
   load_balancer_type = var.load_balancer_type
 
